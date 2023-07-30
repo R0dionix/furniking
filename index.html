@@ -1,0 +1,1509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#7ac751">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>Furniking | Главная</title>
+  <link rel="stylesheet" href="css/main.min.css?_v=20230730214551">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top header-info">
+      <div class="container">
+        <p class="header-info__text">Добро пожаловать в наш интернет-магазин</p>
+        <div class="header-info__box">
+          <div class="header-info__select custom-select">
+            <select>
+              <option value="ru">Russia (RUB)</option>
+              <option value="eng">English (USD)</option>
+            </select>
+          </div>
+          <a class="header-info__link" href="#">Войти или зарегистрироваться</a>
+        </div>
+      </div>
+    </div>
+    <div class="header__middle">
+      <div class="container">
+        <a class="header__logo logo" href="#">
+          <img src="img/logo.svg" alt="Furning Logo">
+        </a>
+        <form class="header__search search">
+          <input class="search__input" type="text" placeholder="Введите запрос">
+          <div class="search__select custom-select">
+            <select>
+              <option value="chairs">Стулья</option>
+              <option value="sofa">Диваны</option>
+              <option value="tables">Столы</option>
+              <option value="sale">Распродажа</option>
+            </select>
+          </div>
+          <button class="search__btn" type="submit" aria-label="Submit">
+            <svg>
+              <use xlink:href="img/sprite.svg#search"></use>
+            </svg>
+          </button>
+        </form>
+        <ul class="header__user-nav user-nav">
+          <li class="user-nav__item">
+            <a class="user-nav__link user-nav__link--cart" href="#" aria-label="Go to Cart">
+              <svg>
+                <use xlink:href="img/sprite.svg#cart"></use>
+              </svg>
+              <span>4</span>
+            </a>
+          </li>
+          <li class="user-nav__item">
+            <a class="user-nav__link" href="#" aria-label="Go to Notification">
+              <svg>
+                <use xlink:href="img/sprite.svg#notify"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="user-nav__item">
+            <a class="user-nav__link" href="#" aria-label="Go to Profile">
+              <svg>
+                <use xlink:href="img/sprite.svg#profile"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="container">
+        <div class="header__dropdown dropdown dropdown--active">
+          <button class="dropdown__btn">Все коллекции</button>
+          <ul class="dropdown__list">
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="#">Все</a>
+            </li>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="#">Новые поступления</a>
+            </li>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="#">Горячая распродажа</a>
+            </li>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="#">Мебель</a>
+            </li>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="#">Диваны</a>
+            </li>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="#">Столы</a>
+            </li>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="#">Стулья</a>
+            </li>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="#">Кресла</a>
+            </li>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="#">Зеркала</a>
+            </li>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="#">Табуреты</a>
+            </li>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="#">Скамейки</a>
+            </li>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="#">Пуфики</a>
+            </li>
+          </ul>
+        </div>
+        <nav class="header__menu menu h-scroll">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Главная</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Магазин</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Блог</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">О нас</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+<main class="main">
+  <section class="hero">
+  <h1 class="visually-hidden">Главный экран</h1>
+  <div class="container">
+    <div class="hero__slider product-slider swiper">
+      <ul class="swiper-wrapper">
+        <li class="swiper-slide">
+          <div class="product-slider__item">
+            <div class="product-slider__text">
+              <span class="product-slider__subtitle">лучшие коллекции 2023</span>
+              <h2 class="product-slider__title line">
+                Мы создаём <br> мебель мечты
+              </h2>
+              <p class="product-slider__descr">
+                Получите скидку 50%
+              </p>
+              <a class="product-slider__btn btn" href="">
+                купить сейчас
+              </a>
+            </div>
+            <div class="product-slider__image">
+              <picture><source srcset="img/product.webp" type="image/webp"><img src="img/product.png" alt="Product"></picture>
+            </div>
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="product-slider__item">
+            <div class="product-slider__text">
+              <span class="product-slider__subtitle">Распродажа</span>
+              <h2 class="product-slider__title">
+                Кресло <br> Minshuku
+              </h2>
+              <p class="product-slider__descr">
+                Элегантность и комфорт
+              </p>
+              <a class="product-slider__btn btn" href="">
+                купить сейчас
+              </a>
+            </div>
+            <div class="product-slider__image">
+              <picture><source srcset="img/product2.webp" type="image/webp"><img src="img/product2.png" alt="Product"></picture>
+            </div>
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="product-slider__item">
+            <div class="product-slider__text">
+              <span class="product-slider__subtitle">Распродажа</span>
+              <h2 class="product-slider__title">
+                Уютное <br> кресло Sunny
+              </h2>
+              <p class="product-slider__descr">
+                Солнечное как лето
+              </p>
+              <a class="product-slider__btn btn" href="">
+                купить сейчас
+              </a>
+            </div>
+            <div class="product-slider__image">
+              <picture><source srcset="img/product3.webp" type="image/webp"><img src="img/product3.png" alt="Product"></picture>
+            </div>
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="product-slider__item">
+            <div class="product-slider__text">
+              <span class="product-slider__subtitle">Новинка</span>
+              <h2 class="product-slider__title">
+                Кресло <br> Bernhardt
+              </h2>
+              <p class="product-slider__descr">
+                Эстетика и гармония
+              </p>
+              <a class="product-slider__btn btn" href="">
+                купить сейчас
+              </a>
+            </div>
+            <div class="product-slider__image">
+              <picture><source srcset="img/product4.webp" type="image/webp"><img src="img/product4.png" alt="Product"></picture>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="product-slider__pagination"></div>
+    </div>
+    <div class="benefits">
+      <h2 class="visually-hidden">Наши преимущества</h2>
+      <ul class="benefits__items">
+        <li class="benefits__item benefits__item--delivery">
+          <h3 class="benefits__title">Бесплатная</h3>
+          <span class="benefits__text">доставка от 10,000 руб</span>
+        </li>
+        <li class="benefits__item benefits__item--gift">
+          <h3 class="benefits__title">Smart карта</h3>
+          <span class="benefits__text">получайте скидки</span>
+        </li>
+        <li class="benefits__item benefits__item--payment">
+          <h3 class="benefits__title">Оплата</h3>
+          <span class="benefits__text">100% безопасность</span>
+        </li>
+        <li class="benefits__item benefits__item--support">
+          <h3 class="benefits__title">Поддержка</h3>
+          <span class="benefits__text">быстрая помощь</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+  <section class="offer section">
+  <h2 class="visually-hidden">Our offers</h2>
+  <div class="container">
+    <ul class="offer__list">
+      <li class="offer__item" style="background-image: url('img/furniture.jpg');">
+        <h3 class="offer__title">Коллекции современной мебели</h3>
+        <p class="offer__text">От 45,000 руб.</p>
+        <a class="offer__link" href="#">
+          Узнать больше
+          <svg>
+            <use xlink:href="img/sprite.svg#right-arrow"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="offer__item" style="background-image: url('img/bookcase.jpg');">
+        <h3 class="offer__title">Геометрический книжный шкаф</h3>
+        <p class="offer__text">Скидка до 20%</p>
+        <a class="offer__link" href="#">
+          Узнать больше
+          <svg>
+            <use xlink:href="img/sprite.svg#right-arrow"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="offer__item" style="background-image: url('img/sofa.jpg');">
+        <h3 class="offer__title">Коллекции диванов в стиле минимализма</h3>
+        <p class="offer__text">Скидки до 40%</p>
+        <a class="offer__link" href="#">
+          Узнать больше
+          <svg>
+            <use xlink:href="img/sprite.svg#right-arrow"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+  <section class="trending section">
+  <div class="container filter filter-container1">
+    <h2 class="title center">тренды</h2>
+    <ul class="filter__nav">
+      <li class="filter__nav-item">
+        <button class="filter__btn filter__btn--active" data-filter="top">Лучшие продукты</button>
+      </li>
+      <li class="filter__nav-item">
+        <button class="filter__btn" data-filter="new">Новые поступления</button>
+      </li>
+      <li class="filter__nav-item">
+        <button class="filter__btn" data-filter="best">Бестселлеры</button>
+      </li>
+    </ul>
+    <ul class="filter__list">
+      <li class="filter__item new">
+  <article class="product">
+    <div class="product__image">
+
+      <span class="product__prop prop prop--blue">Новинка</span>
+
+      <picture><source srcset="img/product/1.webp" type="image/webp"><img src="img/product/1.jpg" alt="Кресло Bernhardt"></picture>
+      <div class="product__nav">
+        <a class="product__link" href="#" aria-label="Add to favorite">
+          <svg>
+            <use xlink:href="img/sprite.svg#favorite"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Add to cart">
+          <svg>
+            <use xlink:href="img/sprite.svg#add"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Compare">
+          <svg>
+            <use xlink:href="img/sprite.svg#compare"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="View">
+          <svg>
+            <use xlink:href="img/sprite.svg#view"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <a class="product__category" href="#">Кресла</a>
+    <h3 class="product__title">
+      <a href="#">Кресло Bernhardt</a>
+    </h3>
+    <div class="product__info">
+      <div class="product__price price">
+        <p class="price__new">
+          258,990<span> руб</span>
+        </p>
+
+      </div>
+    </div>
+  </article>
+</li><li class="filter__item new">
+  <article class="product">
+    <div class="product__image">
+
+      <span class="product__prop prop prop--blue">Новинка</span>
+
+      <picture><source srcset="img/product/2.webp" type="image/webp"><img src="img/product/2.jpg" alt="Стул в стиле Minimal"></picture>
+      <div class="product__nav">
+        <a class="product__link" href="#" aria-label="Add to favorite">
+          <svg>
+            <use xlink:href="img/sprite.svg#favorite"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Add to cart">
+          <svg>
+            <use xlink:href="img/sprite.svg#add"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Compare">
+          <svg>
+            <use xlink:href="img/sprite.svg#compare"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="View">
+          <svg>
+            <use xlink:href="img/sprite.svg#view"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <a class="product__category" href="#">Стулья</a>
+    <h3 class="product__title">
+      <a href="#">Стул в стиле Minimal</a>
+    </h3>
+    <div class="product__info">
+      <div class="product__price price">
+        <p class="price__new">
+          33,800<span> руб</span>
+        </p>
+
+      </div>
+    </div>
+  </article>
+</li><li class="filter__item top">
+  <article class="product">
+    <div class="product__image">
+
+      <span class="product__prop prop ">Распродажа</span>
+
+      <picture><source srcset="img/product/3.webp" type="image/webp"><img src="img/product/3.jpg" alt="Кресло Angel Cerdá"></picture>
+      <div class="product__nav">
+        <a class="product__link" href="#" aria-label="Add to favorite">
+          <svg>
+            <use xlink:href="img/sprite.svg#favorite"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Add to cart">
+          <svg>
+            <use xlink:href="img/sprite.svg#add"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Compare">
+          <svg>
+            <use xlink:href="img/sprite.svg#compare"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="View">
+          <svg>
+            <use xlink:href="img/sprite.svg#view"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <a class="product__category" href="#">Кресла</a>
+    <h3 class="product__title">
+      <a href="#">Кресло Angel Cerdá</a>
+    </h3>
+    <div class="product__info">
+      <div class="product__price price">
+        <p class="price__new">
+          18,300<span> руб</span>
+        </p>
+
+        <p class="price__old">
+          25,390<span> руб</span>
+        </p>
+
+      </div>
+    </div>
+  </article>
+</li><li class="filter__item top">
+  <article class="product">
+    <div class="product__image">
+
+      <span class="product__prop prop ">Распродажа</span>
+
+      <picture><source srcset="img/product/4.webp" type="image/webp"><img src="img/product/4.jpg" alt="Кресло Buskbo"></picture>
+      <div class="product__nav">
+        <a class="product__link" href="#" aria-label="Add to favorite">
+          <svg>
+            <use xlink:href="img/sprite.svg#favorite"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Add to cart">
+          <svg>
+            <use xlink:href="img/sprite.svg#add"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Compare">
+          <svg>
+            <use xlink:href="img/sprite.svg#compare"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="View">
+          <svg>
+            <use xlink:href="img/sprite.svg#view"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <a class="product__category" href="#">Кресла</a>
+    <h3 class="product__title">
+      <a href="#">Кресло Buskbo</a>
+    </h3>
+    <div class="product__info">
+      <div class="product__price price">
+        <p class="price__new">
+          40,000<span> руб</span>
+        </p>
+
+        <p class="price__old">
+          70,000<span> руб</span>
+        </p>
+
+      </div>
+    </div>
+  </article>
+</li><li class="filter__item top">
+  <article class="product">
+    <div class="product__image">
+
+      <span class="product__prop prop ">Распродажа</span>
+
+      <picture><source srcset="img/product/5.webp" type="image/webp"><img src="img/product/5.jpg" alt="Кресло Minshuku"></picture>
+      <div class="product__nav">
+        <a class="product__link" href="#" aria-label="Add to favorite">
+          <svg>
+            <use xlink:href="img/sprite.svg#favorite"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Add to cart">
+          <svg>
+            <use xlink:href="img/sprite.svg#add"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Compare">
+          <svg>
+            <use xlink:href="img/sprite.svg#compare"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="View">
+          <svg>
+            <use xlink:href="img/sprite.svg#view"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <a class="product__category" href="#">Кресла</a>
+    <h3 class="product__title">
+      <a href="#">Кресло Minshuku</a>
+    </h3>
+    <div class="product__info">
+      <div class="product__price price">
+        <p class="price__new">
+          25,900<span> руб</span>
+        </p>
+
+        <p class="price__old">
+          34,000<span> руб</span>
+        </p>
+
+      </div>
+    </div>
+  </article>
+</li><li class="filter__item top">
+  <article class="product">
+    <div class="product__image">
+
+      <span class="product__prop prop ">Распродажа</span>
+
+      <picture><source srcset="img/product/6.webp" type="image/webp"><img src="img/product/6.jpg" alt="Стул Tulip"></picture>
+      <div class="product__nav">
+        <a class="product__link" href="#" aria-label="Add to favorite">
+          <svg>
+            <use xlink:href="img/sprite.svg#favorite"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Add to cart">
+          <svg>
+            <use xlink:href="img/sprite.svg#add"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Compare">
+          <svg>
+            <use xlink:href="img/sprite.svg#compare"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="View">
+          <svg>
+            <use xlink:href="img/sprite.svg#view"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <a class="product__category" href="#">Стулья</a>
+    <h3 class="product__title">
+      <a href="#">Стул Tulip</a>
+    </h3>
+    <div class="product__info">
+      <div class="product__price price">
+        <p class="price__new">
+          5,000<span> руб</span>
+        </p>
+
+        <p class="price__old">
+          7,900<span> руб</span>
+        </p>
+
+      </div>
+    </div>
+  </article>
+</li><li class="filter__item new">
+  <article class="product">
+    <div class="product__image">
+
+      <span class="product__prop prop prop--blue">Новинка</span>
+
+      <picture><source srcset="img/product/7.webp" type="image/webp"><img src="img/product/7.jpg" alt="Стул Nordic Japanese"></picture>
+      <div class="product__nav">
+        <a class="product__link" href="#" aria-label="Add to favorite">
+          <svg>
+            <use xlink:href="img/sprite.svg#favorite"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Add to cart">
+          <svg>
+            <use xlink:href="img/sprite.svg#add"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Compare">
+          <svg>
+            <use xlink:href="img/sprite.svg#compare"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="View">
+          <svg>
+            <use xlink:href="img/sprite.svg#view"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <a class="product__category" href="#">Стулья</a>
+    <h3 class="product__title">
+      <a href="#">Стул Nordic Japanese</a>
+    </h3>
+    <div class="product__info">
+      <div class="product__price price">
+        <p class="price__new">
+          5,100<span> руб</span>
+        </p>
+
+      </div>
+    </div>
+  </article>
+</li><li class="filter__item new">
+  <article class="product">
+    <div class="product__image">
+
+      <span class="product__prop prop prop--blue">Новинка</span>
+
+      <picture><source srcset="img/product/8.webp" type="image/webp"><img src="img/product/8.jpg" alt="Кресло Louis"></picture>
+      <div class="product__nav">
+        <a class="product__link" href="#" aria-label="Add to favorite">
+          <svg>
+            <use xlink:href="img/sprite.svg#favorite"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Add to cart">
+          <svg>
+            <use xlink:href="img/sprite.svg#add"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Compare">
+          <svg>
+            <use xlink:href="img/sprite.svg#compare"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="View">
+          <svg>
+            <use xlink:href="img/sprite.svg#view"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <a class="product__category" href="#">Кресла</a>
+    <h3 class="product__title">
+      <a href="#">Кресло Louis</a>
+    </h3>
+    <div class="product__info">
+      <div class="product__price price">
+        <p class="price__new">
+          15,800<span> руб</span>
+        </p>
+
+      </div>
+    </div>
+  </article>
+</li><li class="filter__item new">
+  <article class="product">
+    <div class="product__image">
+
+      <span class="product__prop prop prop--blue">Новинка</span>
+
+      <picture><source srcset="img/product/15.webp" type="image/webp"><img src="img/product/15.jpg" alt="Пуфик Carson Carrington"></picture>
+      <div class="product__nav">
+        <a class="product__link" href="#" aria-label="Add to favorite">
+          <svg>
+            <use xlink:href="img/sprite.svg#favorite"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Add to cart">
+          <svg>
+            <use xlink:href="img/sprite.svg#add"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Compare">
+          <svg>
+            <use xlink:href="img/sprite.svg#compare"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="View">
+          <svg>
+            <use xlink:href="img/sprite.svg#view"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <a class="product__category" href="#">Пуфики</a>
+    <h3 class="product__title">
+      <a href="#">Пуфик Carson Carrington</a>
+    </h3>
+    <div class="product__info">
+      <div class="product__price price">
+        <p class="price__new">
+          5,900<span> руб</span>
+        </p>
+
+      </div>
+    </div>
+  </article>
+</li><li class="filter__item new">
+  <article class="product">
+    <div class="product__image">
+
+      <span class="product__prop prop prop--blue">Новинка</span>
+
+      <picture><source srcset="img/product/16.webp" type="image/webp"><img src="img/product/16.jpg" alt="Гостиная Delicia из 3 частей"></picture>
+      <div class="product__nav">
+        <a class="product__link" href="#" aria-label="Add to favorite">
+          <svg>
+            <use xlink:href="img/sprite.svg#favorite"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Add to cart">
+          <svg>
+            <use xlink:href="img/sprite.svg#add"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Compare">
+          <svg>
+            <use xlink:href="img/sprite.svg#compare"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="View">
+          <svg>
+            <use xlink:href="img/sprite.svg#view"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <a class="product__category" href="#">Мебель</a>
+    <h3 class="product__title">
+      <a href="#">Гостиная Delicia из 3 частей</a>
+    </h3>
+    <div class="product__info">
+      <div class="product__price price">
+        <p class="price__new">
+          22,900<span> руб</span>
+        </p>
+
+      </div>
+    </div>
+  </article>
+</li><li class="filter__item best">
+  <article class="product">
+    <div class="product__image">
+
+      <span class="product__prop prop ">Распродажа</span>
+
+      <picture><source srcset="img/product/9.webp" type="image/webp"><img src="img/product/9.jpg" alt="Кресло Sunny"></picture>
+      <div class="product__nav">
+        <a class="product__link" href="#" aria-label="Add to favorite">
+          <svg>
+            <use xlink:href="img/sprite.svg#favorite"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Add to cart">
+          <svg>
+            <use xlink:href="img/sprite.svg#add"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Compare">
+          <svg>
+            <use xlink:href="img/sprite.svg#compare"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="View">
+          <svg>
+            <use xlink:href="img/sprite.svg#view"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <a class="product__category" href="#">Кресла</a>
+    <h3 class="product__title">
+      <a href="#">Кресло Sunny</a>
+    </h3>
+    <div class="product__info">
+      <div class="product__price price">
+        <p class="price__new">
+          22,511<span> руб</span>
+        </p>
+
+        <p class="price__old">
+          34,500<span> руб</span>
+        </p>
+
+      </div>
+    </div>
+  </article>
+</li>
+    </ul>
+  </div>
+</section>
+  <section class="promo section">
+  <div class="container">
+    <h2 class="title center">спецпредложения</h2>
+    <ul class="promo__items">
+      <li class="promo__item" style="background-image: url('img/promo1.jpg');">
+        <a class="promo__link" href="#">
+          <span class="promo__prop prop prop--blue">40% скидка</span>
+          <h3 class="promo__heading">Мебель для гостиной</h3>
+          <p class="promo__text">
+            Желаете приобрести мебель? Совершайте покупки со скидкой 40%!
+          </p>
+          <div class="promo__info">
+            <div class="promo__price price">
+              <p class="price__new">
+                13,740<span> руб</span>
+              </p>
+              <p class="price__old">
+                22,900<span> руб</span>
+              </p>
+            </div>
+            <div class="promo__btn btn">Купить</div>
+          </div>
+          <div class="countdown countdown-timer" data-countdown-date="2023-03-26T23:59:59">
+            <div class="countdown__item">
+              <span class="countdown__value days">00</span>
+              <p>days</p>
+            </div>
+            <div class="countdown__item">
+              <span class="countdown__value hours">00</span>
+              <p>hrs</p>
+            </div>
+            <div class="countdown__item">
+              <span class="countdown__value minutes">00</span>
+              <p>min</p>
+            </div>
+            <div class="countdown__item">
+              <span class="countdown__value seconds">00</span>
+              <p>secs</p>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="promo__item" style="background-image: url('img/promo2.jpg');">
+        <a class="promo__link" href="#">
+          <span class="promo__prop prop prop--blue">50% скидка</span>
+          <h3 class="promo__heading">Кресло Louis</h3>
+          <p class="promo__text">
+            Лучшее кресло современной эпохи теперь доступно на нашем складе.
+          </p>
+          <div class="promo__info">
+            <div class="promo__price price">
+              <p class="price__new">
+                7,900<span> руб</span>
+              </p>
+              <p class="price__old">
+                15,800<span> руб</span>
+              </p>
+            </div>
+            <div class="promo__btn btn">Купить</div>
+          </div>
+          <div class="countdown countdown-timer" data-countdown-date="2023-03-26T23:59:59">
+            <div class="countdown__item">
+              <span class="countdown__value days">00</span>
+              <p>days</p>
+            </div>
+            <div class="countdown__item">
+              <span class="countdown__value hours">00</span>
+              <p>hrs</p>
+            </div>
+            <div class="countdown__item">
+              <span class="countdown__value minutes">00</span>
+              <p>min</p>
+            </div>
+            <div class="countdown__item">
+              <span class="countdown__value seconds">00</span>
+              <p>secs</p>
+            </div>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+  <section class="products section">
+  <div class="container filter filter-container2">
+    <h2 class="title center">Наши продукты</h2>
+    <ul class="filter__nav">
+      <li class="filter__nav-item">
+        <button class="filter__btn" data-filter="best">Бестселлеры</button>
+      </li>
+      <li class="filter__nav-item">
+        <button class="filter__btn" data-filter="new">Новые поступления</button>
+      </li>
+      <li class="filter__nav-item">
+        <button class="filter__btn" data-filter="deal">Акции</button>
+      </li>
+    </ul>
+    <ul class="filter__list">
+      <li class="filter__item best">
+  <article class="product">
+    <div class="product__image">
+
+      <span class="product__prop prop ">Распродажа</span>
+
+      <picture><source srcset="img/product/9.webp" type="image/webp"><img src="img/product/9.jpg" alt="Кресло Sunny"></picture>
+      <div class="product__nav">
+        <a class="product__link" href="#" aria-label="Add to favorite">
+          <svg>
+            <use xlink:href="img/sprite.svg#favorite"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Add to cart">
+          <svg>
+            <use xlink:href="img/sprite.svg#add"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Compare">
+          <svg>
+            <use xlink:href="img/sprite.svg#compare"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="View">
+          <svg>
+            <use xlink:href="img/sprite.svg#view"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <a class="product__category" href="#">Кресла</a>
+    <h3 class="product__title">
+      <a href="#">Кресло Sunny</a>
+    </h3>
+    <div class="product__info">
+      <div class="product__price price">
+        <p class="price__new">
+          22,511<span> руб</span>
+        </p>
+
+        <p class="price__old">
+          34,500<span> руб</span>
+        </p>
+
+      </div>
+    </div>
+  </article>
+</li><li class="filter__item new">
+  <article class="product">
+    <div class="product__image">
+
+      <span class="product__prop prop prop--blue">Новинка</span>
+
+      <picture><source srcset="img/product/10.webp" type="image/webp"><img src="img/product/10.jpg" alt="Диван Alesso Snow"></picture>
+      <div class="product__nav">
+        <a class="product__link" href="#" aria-label="Add to favorite">
+          <svg>
+            <use xlink:href="img/sprite.svg#favorite"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Add to cart">
+          <svg>
+            <use xlink:href="img/sprite.svg#add"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Compare">
+          <svg>
+            <use xlink:href="img/sprite.svg#compare"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="View">
+          <svg>
+            <use xlink:href="img/sprite.svg#view"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <a class="product__category" href="#">Диваны</a>
+    <h3 class="product__title">
+      <a href="#">Диван Alesso Snow</a>
+    </h3>
+    <div class="product__info">
+      <div class="product__price price">
+        <p class="price__new">
+          180,000<span> руб</span>
+        </p>
+
+      </div>
+    </div>
+  </article>
+</li><li class="filter__item deal">
+  <article class="product">
+    <div class="product__image">
+
+      <span class="product__prop prop prop--red">-30%</span>
+
+      <picture><source srcset="img/product/11.webp" type="image/webp"><img src="img/product/11.jpg" alt="Диван Casa Andrea Milano"></picture>
+      <div class="product__nav">
+        <a class="product__link" href="#" aria-label="Add to favorite">
+          <svg>
+            <use xlink:href="img/sprite.svg#favorite"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Add to cart">
+          <svg>
+            <use xlink:href="img/sprite.svg#add"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Compare">
+          <svg>
+            <use xlink:href="img/sprite.svg#compare"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="View">
+          <svg>
+            <use xlink:href="img/sprite.svg#view"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <a class="product__category" href="#">Диваны</a>
+    <h3 class="product__title">
+      <a href="#">Диван Casa Andrea Milano</a>
+    </h3>
+    <div class="product__info">
+      <div class="product__price price">
+        <p class="price__new">
+          70,140<span> руб</span>
+        </p>
+
+        <p class="price__old">
+          100,200<span> руб</span>
+        </p>
+
+      </div>
+    </div>
+  </article>
+</li><li class="filter__item best">
+  <article class="product">
+    <div class="product__image">
+
+      <span class="product__prop prop ">Распродажа</span>
+
+      <picture><source srcset="img/product/12.webp" type="image/webp"><img src="img/product/12.jpg" alt="Кофейный стол"></picture>
+      <div class="product__nav">
+        <a class="product__link" href="#" aria-label="Add to favorite">
+          <svg>
+            <use xlink:href="img/sprite.svg#favorite"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Add to cart">
+          <svg>
+            <use xlink:href="img/sprite.svg#add"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Compare">
+          <svg>
+            <use xlink:href="img/sprite.svg#compare"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="View">
+          <svg>
+            <use xlink:href="img/sprite.svg#view"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <a class="product__category" href="#">Столы</a>
+    <h3 class="product__title">
+      <a href="#">Кофейный стол</a>
+    </h3>
+    <div class="product__info">
+      <div class="product__price price">
+        <p class="price__new">
+          9,000<span> руб</span>
+        </p>
+
+        <p class="price__old">
+          12,530<span> руб</span>
+        </p>
+
+      </div>
+    </div>
+  </article>
+</li><li class="filter__item deal">
+  <article class="product">
+    <div class="product__image">
+
+      <span class="product__prop prop prop--red">-30%</span>
+
+      <picture><source srcset="img/product/13.webp" type="image/webp"><img src="img/product/13.jpg" alt="Барные стулья из акации"></picture>
+      <div class="product__nav">
+        <a class="product__link" href="#" aria-label="Add to favorite">
+          <svg>
+            <use xlink:href="img/sprite.svg#favorite"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Add to cart">
+          <svg>
+            <use xlink:href="img/sprite.svg#add"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Compare">
+          <svg>
+            <use xlink:href="img/sprite.svg#compare"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="View">
+          <svg>
+            <use xlink:href="img/sprite.svg#view"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <a class="product__category" href="#">Стулья</a>
+    <h3 class="product__title">
+      <a href="#">Барные стулья из акации</a>
+    </h3>
+    <div class="product__info">
+      <div class="product__price price">
+        <p class="price__new">
+          37,520<span> руб</span>
+        </p>
+
+        <p class="price__old">
+          53,600<span> руб</span>
+        </p>
+
+      </div>
+    </div>
+  </article>
+</li><li class="filter__item best">
+  <article class="product">
+    <div class="product__image">
+
+      <span class="product__prop prop ">Распродажа</span>
+
+      <picture><source srcset="img/product/14.webp" type="image/webp"><img src="img/product/14.jpg" alt="Скамья Betty tk4"></picture>
+      <div class="product__nav">
+        <a class="product__link" href="#" aria-label="Add to favorite">
+          <svg>
+            <use xlink:href="img/sprite.svg#favorite"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Add to cart">
+          <svg>
+            <use xlink:href="img/sprite.svg#add"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Compare">
+          <svg>
+            <use xlink:href="img/sprite.svg#compare"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="View">
+          <svg>
+            <use xlink:href="img/sprite.svg#view"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <a class="product__category" href="#">Скамьи</a>
+    <h3 class="product__title">
+      <a href="#">Скамья Betty tk4</a>
+    </h3>
+    <div class="product__info">
+      <div class="product__price price">
+        <p class="price__new">
+          40,350<span> руб</span>
+        </p>
+
+        <p class="price__old">
+          109,500<span> руб</span>
+        </p>
+
+      </div>
+    </div>
+  </article>
+</li><li class="filter__item new">
+  <article class="product">
+    <div class="product__image">
+
+      <span class="product__prop prop prop--blue">Новинка</span>
+
+      <picture><source srcset="img/product/15.webp" type="image/webp"><img src="img/product/15.jpg" alt="Пуфик Carson Carrington"></picture>
+      <div class="product__nav">
+        <a class="product__link" href="#" aria-label="Add to favorite">
+          <svg>
+            <use xlink:href="img/sprite.svg#favorite"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Add to cart">
+          <svg>
+            <use xlink:href="img/sprite.svg#add"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Compare">
+          <svg>
+            <use xlink:href="img/sprite.svg#compare"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="View">
+          <svg>
+            <use xlink:href="img/sprite.svg#view"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <a class="product__category" href="#">Пуфики</a>
+    <h3 class="product__title">
+      <a href="#">Пуфик Carson Carrington</a>
+    </h3>
+    <div class="product__info">
+      <div class="product__price price">
+        <p class="price__new">
+          5,900<span> руб</span>
+        </p>
+
+      </div>
+    </div>
+  </article>
+</li><li class="filter__item new">
+  <article class="product">
+    <div class="product__image">
+
+      <span class="product__prop prop prop--blue">Новинка</span>
+
+      <picture><source srcset="img/product/16.webp" type="image/webp"><img src="img/product/16.jpg" alt="Гостиная Delicia из 3 частей"></picture>
+      <div class="product__nav">
+        <a class="product__link" href="#" aria-label="Add to favorite">
+          <svg>
+            <use xlink:href="img/sprite.svg#favorite"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Add to cart">
+          <svg>
+            <use xlink:href="img/sprite.svg#add"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="Compare">
+          <svg>
+            <use xlink:href="img/sprite.svg#compare"></use>
+          </svg>
+        </a>
+        <a class="product__link" href="#" aria-label="View">
+          <svg>
+            <use xlink:href="img/sprite.svg#view"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <a class="product__category" href="#">Мебель</a>
+    <h3 class="product__title">
+      <a href="#">Гостиная Delicia из 3 частей</a>
+    </h3>
+    <div class="product__info">
+      <div class="product__price price">
+        <p class="price__new">
+          22,900<span> руб</span>
+        </p>
+
+      </div>
+    </div>
+  </article>
+</li>
+    </ul>
+  </div>
+</section>
+  <section class="reviews section">
+  <div class="container">
+    <h2 class="title center">Что говорят наши клиенты</h2>
+    <div class="reviews__wrapper">
+      <div class="reviews__slider swiper review">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <div class="review__item">
+              <div class="review__image">
+                <picture><source srcset="img/user.webp" type="image/webp"><img src="img/user.jpg" alt="author"></picture>
+              </div>
+              <blockquote class="review__quote">
+                <p>
+                  Здесь можно найти мебель для любого помещения и любого стиля — от классической до современной.
+                  Оформление и навигация на сайте также заслуживают похвалы.
+                  Все категории легко находятся, и поиск товаров работает отлично.
+                  Я быстро нашла то, что мне нужно, и сделала заказ всего за несколько минут.
+                </p>
+              </blockquote>
+              <div class="review__author">
+                <h3 class="review__name">Ирина</h3>
+              </div>
+            </div>
+          </li>
+          <li class="swiper-slide">
+            <div class="review__item">
+              <div class="review__image">
+                <picture><source srcset="img/user2.webp" type="image/webp"><img src="img/user2.jpg" alt="author"></picture>
+              </div>
+              <blockquote class="review__quote">
+                <p>
+                  Я решил обновить мебель в гостиной и взять новый диван.
+                  Выбрал доступный вариант с двумя креслами.
+                  Оформил заказ быстро и легко, полностью доволен своим выбором.
+                  В ближайшее время планирую провести ремонт на кухне и намереваюсь здесь же закупиться.
+                  Цены здесь довольно хорошие, поэтому рекомендую.
+                </p>
+              </blockquote>
+              <div class="review__author">
+                <h3 class="review__name">Андрей</h3>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="reviews__nav">
+        <button class="reviews__btn reviews__btn--prev" aria-label="Prev slide">
+          <svg>
+            <use xlink:href="img/sprite.svg#arrow"></use>
+          </svg>
+        </button>
+        <button class="reviews__btn reviews__btn--next" aria-label="Next slide">
+          <svg>
+            <use xlink:href="img/sprite.svg#arrow"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="recent section">
+  <div class="container">
+    <h2 class="title center">Наши последние статьи</h2>
+    <ul class="recent__list">
+      <li class="recent__item">
+        <article class="recent__post blog-post" style="background-image: url('img/post1.jpg');">
+          <div class="blog-post__meta">
+            <a class="blog-post__tag tag" href="#">Мебель</a>
+            <time class="blog-post__date" datetime="2023-07-20">
+              20 Июля 2023
+            </time>
+          </div>
+          <h3 class="blog-post__title">
+            Руководство по покупке дивана
+          </h3>
+          <a class="blog-post__link" href="#">Подробнее</a>
+        </article>
+      </li>
+      <li class="recent__item">
+        <article class="recent__post blog-post" style="background-image: url('img/post2.jpg');">
+          <div class="blog-post__meta">
+            <a class="blog-post__tag tag" href="#">Столы</a>
+            <time class="blog-post__date" datetime="2023-07-23">
+              23 Июля 2023
+            </time>
+          </div>
+          <h3 class="blog-post__title">
+            Покупка лучшего компьютерного стола
+          </h3>
+          <a class="blog-post__link" href="#">Подробнее</a>
+        </article>
+      </li>
+      <li class="recent__item">
+        <article class="recent__post blog-post" style="background-image: url('img/post3.jpg');">
+          <div class="blog-post__meta">
+            <a class="blog-post__tag tag" href="#">Скамьи</a>
+            <time class="blog-post__date" datetime="2023-07-10">
+              10 Июля 2023
+            </time>
+          </div>
+          <h3 class="blog-post__title">
+            Как выбрать лучшую современную скамью
+          </h3>
+          <a class="blog-post__link" href="#">Подробнее</a>
+        </article>
+      </li>
+      <li class="recent__item">
+        <article class="recent__post blog-post" style="background-image: url('img/post4.jpg');">
+          <div class="blog-post__meta">
+            <a class="blog-post__tag tag" href="#">Стулья</a>
+            <time class="blog-post__date" datetime="2023-07-19">
+              19 Июля 2023
+            </time>
+          </div>
+          <h3 class="blog-post__title">
+            Выбираем самый удобный стул
+          </h3>
+          <a class="blog-post__link" href="#">Подробнее</a>
+        </article>
+      </li>
+    </ul>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="footer__top">
+    <div class="container">
+      <div class="footer-info">
+        <a class="footer__logo logo" href="#">
+          <img src="img/logo.svg" alt="Logo">
+        </a>
+        <p>
+          Широкий ассортимент качественной мебели, от современных трендов до классических решений, чтобы воплотить любую вашу идею.
+        </p>
+        <ul class="footer__social social">
+          <li class="social__item">
+            <a class="social__link" href="#" aria-label="Facebook">
+              <svg>
+                <use xlink:href="img/sprite.svg#fb"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#" aria-label="Twitter">
+              <svg>
+                <use xlink:href="img/sprite.svg#tw"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#" aria-label="Instagram">
+              <svg>
+                <use xlink:href="img/sprite.svg#inst"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#" aria-label="Pinterest">
+              <svg>
+                <use xlink:href="img/sprite.svg#pint"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__columns">
+        <div class="footer__column">
+          <h3 class="footer__title">Помощь</h3>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#">Политика конфиденциальности</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">Отправка и доставка</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">Политика возврата</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">Отслеживание заказа</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h3 class="footer__title">Магазин</h3>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#">Мебель</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">Столы</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">Диваны</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">Прочее</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h3 class="footer__title">Поддержка</h3>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#">Обратная связь</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">Контакты</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">Скачать приложение</a>
+            </li>
+            <li class="footer__item">
+              <a href="#">Условия договора</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container">
+      <div class="footer__left">
+        <p class="footer__copy">© 2021 Funking — Все права защищены.</p>
+      </div>
+      <div class="footer__right">
+        <ul class="footer__list footer__list--row">
+          <li class="footer__item">
+            <a href="#">Конфиденциальность</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">Безопасность</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">Условия</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/app.min.js?_v=20230730214551"></script>
+</body>
+
+</html>
